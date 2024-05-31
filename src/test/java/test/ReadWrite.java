@@ -18,7 +18,7 @@ public class ReadWrite {
 		FileOutputStream outputStream = new FileOutputStream(
 				"C:\\Users\\Engr. Abbey\\eclipse-workspace\\ReadWriteFile\\src\\test\\resources\\properties\\testdata.properties");
 		properties.setProperty("testdata", "1234567");
-		properties.store(outputStream, "This is the customer data");
+		properties.store(outputStream, "This is the customer data"); hjh
 	}
 
 }
